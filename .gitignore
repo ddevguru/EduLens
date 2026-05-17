@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native builds (Expo prebuild output)
+android/
+ios/
+
+# Metro bundler cache
+.metro-health-check*
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Test / coverage
+coverage/
+
+# Temporary
+*.orig
+*.bak
+*.tmp

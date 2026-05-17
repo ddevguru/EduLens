@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "EduLens",
+    "slug": "edulens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "edulens",
+    "splash": {
+      "resizeMode": "cover",
+      "backgroundColor": "#F6E0D2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.edulens.app"
+    },
+    "android": {
+      "package": "com.edulens.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F6E0D2"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-splash-screen"
+    ]
+  }
+}
