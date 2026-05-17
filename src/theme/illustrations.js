@@ -292,14 +292,14 @@ export const illustrations = {
  * matching filename into /assets/avatars/ to replace the placeholder.
  */
 export const avatars = {
-  fox:    { file: 'fox.png',    source: null, motif: 'fox',    color: '#E8836B' },
-  owl:    { file: 'owl.png',    source: null, motif: 'owl',    color: '#6C7BD6' },
-  deer:   { file: 'deer.png',   source: null, motif: 'deer',   color: '#E4B363' },
-  rabbit: { file: 'rabbit.png', source: null, motif: 'rabbit', color: '#7CA982' },
-  cat:    { file: 'cat.png',    source: null, motif: 'cat',    color: '#D26449' },
-  bird:   { file: 'bird.png',   source: null, motif: 'bird',   color: '#4A5AB8' },
-  bear:   { file: 'bear.png',   source: null, motif: 'bear',   color: '#5C8A62' },
-  turtle: { file: 'turtle.png', source: null, motif: 'turtle', color: '#A9B4EC' },
+  fox:    { file: 'fox.png',    source: require('../../assets/avatars/fox.png'),    motif: 'fox',    color: '#E8836B' },
+  owl:    { file: 'owl.png',    source: require('../../assets/avatars/owl.png'),    motif: 'owl',    color: '#6C7BD6' },
+  deer:   { file: 'deer.png',   source: require('../../assets/avatars/deer.png'),   motif: 'deer',   color: '#E4B363' },
+  rabbit: { file: 'rabbit.png', source: require('../../assets/avatars/rabbit.png'), motif: 'rabbit', color: '#7CA982' },
+  cat:    { file: 'cat.png',    source: require('../../assets/avatars/cat.png'),    motif: 'cat',    color: '#D26449' },
+  bird:   { file: 'bird.png',   source: require('../../assets/avatars/bird.png'),   motif: 'bird',   color: '#4A5AB8' },
+  bear:   { file: 'bear.png',   source: require('../../assets/avatars/bear.png'),   motif: 'bear',   color: '#5C8A62' },
+  turtle: { file: 'turtle.png', source: require('../../assets/avatars/turtle.png'), motif: 'turtle', color: '#A9B4EC' },
 };
 
 export const avatarKeys = Object.keys(avatars);
